@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+##!/usr/bin/env python3
 """
 build_papers.py
 
@@ -111,12 +111,16 @@ def extract_number(record: Dict[str, List[str]]) -> Optional[int]:
         m = re.search(r"-?\d+", num)
         if m:
             return int(m.group(0))
+    # Fallback: RePEc's standard paper handle is RePEc:aaa:wpaper:<number>,
+    # so accept the last segment ONLY if it is entirely digits (e.g. "0007"
+    # -> 7). Anything else (page ranges like "p:1-269", article-style
+    # "y:2026:i:1", free text) is NOT a paper number, so return None and let
+    # the website simply omit the "No." label rather than show a wrong one.
     handle = first(record, "Handle")
     if handle:
         tail = handle.rstrip(":").split(":")[-1]
-        m = re.search(r"-?\d+$", tail)
-        if m:
-            return int(m.group(0))
+        if re.fullmatch(r"\d+", tail):
+            return int(tail)
     return None
 
 
@@ -144,7 +148,8 @@ def record_to_paper(record: Dict[str, List[str]], source_path: Path) -> Optional
     authors = all_values(record, "Author-Name")
     abstract = first(record, "Abstract") or ""
     jel_raw = first(record, "Classification-JEL") or ""
-    jel = ", ".join(part.strip() for part in jel_raw.split(";") if part.strip())
+    # JEL codes may be separated by ";", "," or whitespace in real files.
+    jel = ", ".join(part for part in re.split(r"[;,\s]+", jel_raw) if part)
 
     return {
         "handle": first(record, "Handle"),
