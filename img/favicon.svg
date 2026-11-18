@@ -1,0 +1,8 @@
+<svg viewBox="0 0 100 100" width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100" height="100" fill="#FDFDFD"/>
+  <!-- EVER text centered -->
+  <text x="50" y="52" font-family="'Sora', sans-serif" font-weight="600" font-size="28" fill="#1B2B3A" letter-spacing="3" text-anchor="middle">EVER</text>
+  <!-- Accent underline -->
+  <path d="M18 62 Q 50 62, 82 62" stroke="#D4A574" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+</svg>
