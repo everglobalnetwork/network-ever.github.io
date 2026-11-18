@@ -1,17 +1,17 @@
 [
   {
-    "handle": "RePEc:cur:wpaper:y:2026:i:1:p:1-269",
-    "number": 23,
+    "handle": "RePEc:cur:wpaper:y:2026:i:1:p:1-48",
+    "number": 1,
     "year": 2026,
-    "title": "Vocational Education is Actually Mildly Underrated: A Vivid Appeal",
+    "title": "The Value of Practical Skills",
     "authors": [
-      "Christian Gschwendt",
-      "Roberto Sartore",
-      "Alberto Unapiedra"
+      "Daniel Goller",
+      "Samuel Lüthi",
+      "Stefan C. Wolter"
     ],
-    "abstract": "In this article, we call the leaders of the world to bury their petty conflicts and unite in order to advance the global introduction of apprenticeships.",
-    "jel": "R2, D2",
-    "file_url": "https://www.everglobalnetwork.com/wpapers/ever_wp_2026_00.pdf",
+    "abstract": "Practical skills are believed to affect labor market success, yet evidence is scarce because they are occupation-specific and difficult to measure. We use high-stakes expert evaluations of apprentices’ performance in standardized practical examinations across more than 170 occupations, held under authentic workplace conditions and linked to administrative records, to separate practical skills from general and vocational knowledge. Practical skills form a distinct dimension of human capital, weakly correlated with conventional achievement measures. They are associated with higher first-year earnings, lower NEET risk, greater retention by training firms, and tertiary entry. Out-of-sample, they substantially improve prediction beyond achievement and background characteristics.",
+    "jel": "J24, I26, J31",
+    "file_url": "https://www.everglobalnetwork.com/wpapers/ever_wp_2026_01.pdf",
     "source_file": "RePEc/cur/wpaper/wp001.rdf"
   }
 ]
