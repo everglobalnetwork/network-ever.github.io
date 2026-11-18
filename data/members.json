@@ -41,13 +41,6 @@
     "image": "claudio-schilter.jpg",
     "external_website": "https://www.claudioschilter.com"
   },
-  "Luke Smith": {
-    "url": "profile.html?id=dr-luke-smith",
-    "slug": "dr-luke-smith",
-    "affiliation": "University of Nowhere",
-    "image": "",
-    "external_website": ""
-  },
   "Roberto Sartore": {
     "url": "profile.html?id=roberto-sartore",
     "slug": "roberto-sartore",
@@ -61,19 +54,5 @@
     "affiliation": "University of Bern",
     "image": "enzo-brox.jpg",
     "external_website": "https://sites.google.com/view/ebrox/home?pli=1&authuser=0"
-  },
-  "Thea Zöllner": {
-    "url": "profile.html?id=dr-thea-z-llner",
-    "slug": "dr-thea-z-llner",
-    "affiliation": "University of Bern",
-    "image": "thea-zoellner.png",
-    "external_website": "https://www.theazoellner.com/"
-  },
-  "Christian Gschwendt": {
-    "url": "profile.html?id=dr-christian-gschwendt",
-    "slug": "dr-christian-gschwendt",
-    "affiliation": "University of Bern",
-    "image": "christian-gschwendt.jpg",
-    "external_website": "https://sites.google.com/view/christian-gschwendt"
   }
 }
