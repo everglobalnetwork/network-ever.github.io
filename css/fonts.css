@@ -213,9 +213,14 @@ hr { border-top: 1px solid var(--border-color); }
     object-fit: cover;
     object-position: 50% 0%;
     background: white;
-    margin-bottom: 15px;
+    margin-bottom: 0;       /* credit or name handles the gap below */
     border: 1px solid var(--border-color);
     transition: transform var(--transition-speed);
+}
+
+/* cards without a credit still need the gap between photo and name */
+.member-profile-link .member-name:first-of-type {
+    margin-top: 15px;
 }
 
 .member-card:hover .member-photo {
@@ -609,16 +614,12 @@ hr { border-top: 1px solid var(--border-color); }
     margin-top: 40px;
 }
 
-.member-photo-wrapper {
-    position: relative;
-    display: block;
-}
-
 .member-photo-credit {
     display: block;
-    font-size: 0.65rem;
-    color: #888;
+    font-size: 0.6rem;
+    color: #bbb;
     text-align: right;
-    margin-top: 4px;
-    margin-bottom: 11px;
+    margin-top: 2px;
+    margin-bottom: 11px;  /* keeps name at same distance as on cards without credit */
+    line-height: 1.2;
 }
