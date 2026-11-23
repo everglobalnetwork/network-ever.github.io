@@ -221,19 +221,13 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
 
-        // 2. Append the image (and optional copyright) to the LINK
+        // 2. Append the image to the LINK, not the card
+        profileLink.appendChild(image);
+
+        // 2b. If there is a photo copyright, show it just below the photo
         const copyright = String(person.photo_copyright || "").trim();
         if (copyright) {
-            const wrapper = document.createElement("div");
-            wrapper.className = "member-photo-wrapper";
-            wrapper.appendChild(image);
-            const caption = document.createElement("span");
-            caption.className = "member-photo-credit";
-            caption.textContent = copyright;
-            wrapper.appendChild(caption);
-            profileLink.appendChild(wrapper);
-        } else {
-            profileLink.appendChild(image);
+            profileLink.appendChild(createDiv("member-photo-credit", copyright));
         }
 
         if (fullName) {
