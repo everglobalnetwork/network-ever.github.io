@@ -1,15 +1,20 @@
-section;sort_order;first_name;last_name;position;year;affiliation;image;website
-board;1;Prof. Dr. Dr. h.c. Uschi;Backes-Gellner;Board;2026;University of Zurich;uschi-backes.png;https://www.business.uzh.ch/de/research/professorships/emap/team/uschibackes.html;
-board;2;Prof. Sandra;McNally;Board;2026;University of Surrey;sandra-mcnally.jpg;https://www.surrey.ac.uk/people/sandra-mcnally;
-board;3;Prof. Dr. Samuel;MÃ¼hlemann;Board;2026;LMU MÃ¼nchen;samuel-muehlemann.jpg;https://www.som.lmu.de/wipaed/de/team/kontaktseite/samuel-muehlemann-30f8a8ae.html;
-board;4;Prof. Dr. Harald;Pfeifer;Board;2026;Maastricht University and BiBB;harald-pfeifer.png;https://www.maastrichtuniversity.nl/h-pfeifer;
-board;5;Prof. Dr. Stefan C.;Wolter;Board;2026;University of Bern and SCCRE;stefan-wolter.jpg;https://www.skbf-csre.ch/skbf/team/stefan-wolter/;
-administration;2;Prof. Dr. Claudio;Schilter;Secretary General;2026;University of Bern;claudio-schilter.jpg;https://www.claudioschilter.com;
-member;;Prof. Dr. Dr. h.c. Uschi;Backes-Gellner;Member;2026;University of Zurich;uschi-backes.png;https://www.business.uzh.ch/de/research/professorships/emap/team/uschibackes.html;
-member;;Prof. Sandra;McNally;Member;2026;University of Surrey;sandra-mcnally.jpg;https://www.surrey.ac.uk/people/sandra-mcnally;
-member;;Prof. Dr. Samuel;MÃ¼hlemann;Member;2026;LMU MÃ¼nchen;samuel-muehlemann.jpg;https://www.som.lmu.de/wipaed/de/team/kontaktseite/samuel-muehlemann-30f8a8ae.html;
-member;;Prof. Dr. Harald;Pfeifer;Member;2026;Maastricht University and BiBB;harald-pfeifer.png;https://www.maastrichtuniversity.nl/h-pfeifer;
-member;;Prof. Dr. Stefan C.;Wolter;Member;2026;University of Bern and SCCRE;stefan-wolter.jpg;https://www.skbf-csre.ch/skbf/team/stefan-wolter/;
-administration;1;Roberto;Sartore;Website Manager;2026;University of Bern;roberto-sartore.png;https://www.linkedin.com/in/roberto-sartore-9a664a1b2/;
-member;;Dr. Enzo;Brox;Member;2026;University of Bern;enzo-brox.jpg;https://sites.google.com/view/ebrox/home?pli=1&authuser=0;
-
+section,sort_order,first_name,last_name,position,year,affiliation,image,website,Column1
+board,1,Prof. Dr. Dr. h.c. Uschi,Backes-Gellner,Board,2026,University of Zurich,uschi-backes.png,https://www.business.uzh.ch/de/research/professorships/emap/team/uschibackes.html,
+board,2,Prof. Sandra,McNally,Board,2026,University of Surrey,sandra-mcnally.jpg,https://www.surrey.ac.uk/people/sandra-mcnally,
+board,3,Prof. Dr. Samuel,Mühlemann,Board,2026,LMU München,samuel-muehlemann.jpg,https://www.som.lmu.de/wipaed/de/team/kontaktseite/samuel-muehlemann-30f8a8ae.html,
+board,4,Prof. Dr. Harald,Pfeifer,Board,2026,Maastricht University and BiBB,harald-pfeifer.png,https://www.maastrichtuniversity.nl/h-pfeifer,
+board,5,Prof. Dr. Stefan C.,Wolter,Board,2026,University of Bern and SCCRE,stefan-wolter.jpg,https://www.skbf-csre.ch/skbf/team/stefan-wolter/,
+administration,2,Prof. Dr. Claudio,Schilter,Secretary General,2026,University of Bern,claudio-schilter.jpg,https://www.claudioschilter.com,
+member,,Prof. Dr. Dr. h.c. Uschi,Backes-Gellner,Member,2026,University of Zurich,uschi-backes.png,https://www.business.uzh.ch/de/research/professorships/emap/team/uschibackes.html,
+member,,Prof. Sandra,McNally,Member,2026,University of Surrey,sandra-mcnally.jpg,https://www.surrey.ac.uk/people/sandra-mcnally,
+member,,Prof. Dr. Samuel,Mühlemann,Member,2026,LMU München,samuel-muehlemann.jpg,https://www.som.lmu.de/wipaed/de/team/kontaktseite/samuel-muehlemann-30f8a8ae.html,
+member,,Prof. Dr. Harald,Pfeifer,Member,2026,Maastricht University and BiBB,harald-pfeifer.png,https://www.maastrichtuniversity.nl/h-pfeifer,
+member,,Prof. Dr. Stefan C.,Wolter,Member,2026,University of Bern and SCCRE,stefan-wolter.jpg,https://www.skbf-csre.ch/skbf/team/stefan-wolter/,
+administration,1,Roberto,Sartore,Website Manager,2026,University of Bern,roberto-sartore.png,https://www.linkedin.com/in/roberto-sartore-9a664a1b2/,
+member,,Dr. Enzo,Brox,Member,2026,University of Bern,enzo-brox.jpg,https://sites.google.com/view/ebrox/home?pli=1&authuser=0,
+member,,Dr. Hanna,"Virtanen, D.Sc. (Econ.), Chief Research Scientist",Member,2026,ETLA Economic Research,Hanna_Virtanen_profile_portrait.jpg,https://sites.google.com/view/hanna-virtanen/home,
+member,,Prof. Dr. Markus,Nagler,Member,2026,University of Erlangen-Nuremberg,20260415_gi_Nagler_N4A7979.jpg,https://markusnagler.mystrikingly.com/,
+member,,Prof. Dr. Thomas,Zwick,Member,2026,University of Würzburg,csm_Prof._Thomas_Zwick_Hintergrund_Dekanat_52d94494a5.png,https://www.wiwi.uni-wuerzburg.de/en/bwl7/team/professor/,
+member,,Prof. Dr. Mikko,Silliman,Member,2026,Aalto University,mikko_pic.jpg,https://sites.google.com/site/mikkosilliman,
+member,,Prof. Dr Jan,Sauermann,Member,2026,Institute for Evaluation of Labour Market and Education Policy (IFAU),IMG_1192.jpeg,https://jansauermann.github.io/,
+member,,Prof. Dr. Patrick,Lehnert,Member,2026,University of Zurich,UZH_Portrait_16625_whitebg.jpg,https://sites.google.com/view/patrick-lehnert,
