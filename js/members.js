@@ -213,14 +213,15 @@ document.addEventListener("DOMContentLoaded", function () {
         image.alt = fullName || "EVER member";
         image.loading = "lazy";
         image.src = getImagePath(person, section);
-        
+
         image.addEventListener("error", function () {
             if (!image.dataset.placeholderApplied) {
                 image.dataset.placeholderApplied = "true";
                 image.src = PLACEHOLDER_IMAGE;
             }
         });
-        
+
+        // 2. Append the image (and optional copyright) to the LINK
         const copyright = String(person.photo_copyright || "").trim();
         if (copyright) {
             const wrapper = document.createElement("div");
@@ -232,7 +233,6 @@ document.addEventListener("DOMContentLoaded", function () {
             wrapper.appendChild(caption);
             profileLink.appendChild(wrapper);
         } else {
-            // 2. Append the image to the LINK, not the card
             profileLink.appendChild(image);
         }
 
