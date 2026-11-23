@@ -608,3 +608,17 @@ hr { border-top: 1px solid var(--border-color); }
 .member-section + .member-section {
     margin-top: 40px;
 }
+
+.member-photo-wrapper {
+    position: relative;
+    display: block;
+}
+
+.member-photo-credit {
+    display: block;
+    font-size: 0.65rem;
+    color: #888;
+    text-align: right;
+    margin-top: 4px;
+    margin-bottom: 11px;
+}
