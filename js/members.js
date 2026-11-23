@@ -213,16 +213,28 @@ document.addEventListener("DOMContentLoaded", function () {
         image.alt = fullName || "EVER member";
         image.loading = "lazy";
         image.src = getImagePath(person, section);
-
+        
         image.addEventListener("error", function () {
             if (!image.dataset.placeholderApplied) {
                 image.dataset.placeholderApplied = "true";
                 image.src = PLACEHOLDER_IMAGE;
             }
         });
-
-        // 2. Append the image to the LINK, not the card
-        profileLink.appendChild(image);
+        
+        const copyright = String(person.photo_copyright || "").trim();
+        if (copyright) {
+            const wrapper = document.createElement("div");
+            wrapper.className = "member-photo-wrapper";
+            wrapper.appendChild(image);
+            const caption = document.createElement("span");
+            caption.className = "member-photo-credit";
+            caption.textContent = copyright;
+            wrapper.appendChild(caption);
+            profileLink.appendChild(wrapper);
+        } else {
+            // 2. Append the image to the LINK, not the card
+            profileLink.appendChild(image);
+        }
 
         if (fullName) {
             // 3. Append the name to the LINK, not the card
