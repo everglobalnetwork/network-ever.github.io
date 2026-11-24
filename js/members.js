@@ -229,12 +229,6 @@ document.addEventListener("DOMContentLoaded", function () {
         // 2. Append the image to the LINK, not the card
         profileLink.appendChild(image);
 
-        // 2b. If there is a photo copyright, show it just below the photo
-        const copyright = String(person.photo_copyright || "").trim();
-        if (copyright) {
-            profileLink.appendChild(createDiv("member-photo-credit", copyright));
-        }
-
         if (fullName) {
             // 3. Append the name to the LINK, not the card
             profileLink.appendChild(createDiv("member-name", fullName));
