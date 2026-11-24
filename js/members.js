@@ -214,6 +214,11 @@ document.addEventListener("DOMContentLoaded", function () {
         image.loading = "lazy";
         image.src = getImagePath(person, section);
 
+        const photoStyle = String(person.photo_style || "").trim();
+        if (photoStyle) {
+            image.style.cssText = photoStyle;
+        }
+
         image.addEventListener("error", function () {
             if (!image.dataset.placeholderApplied) {
                 image.dataset.placeholderApplied = "true";
