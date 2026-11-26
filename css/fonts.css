@@ -144,7 +144,7 @@ html {
 
 .tm-col-left {
     width: 13%;
-    padding-left: 6px;
+    padding-left: 0;
     padding-right: 8px;
     padding-top: 1.5rem;
 }
@@ -530,6 +530,8 @@ hr { border-top: 1px solid var(--border-color); }
 .tm-site-header {
   display: flex;
   align-items: flex-start;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .tm-site-header a {
