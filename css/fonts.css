@@ -6,7 +6,6 @@ Roberto Sartore, Claude
 
 */
 
-
 html {
     overflow-y: scroll;
     scrollbar-gutter: stable;
@@ -148,7 +147,7 @@ html {
     width: 14%;
     padding-left: 8px;
     padding-right: 8px;
-    padding-top: 0.6rem;
+    padding-top: 0;
 }
 
 .tm-col-right {
