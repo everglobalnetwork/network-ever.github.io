@@ -577,16 +577,16 @@ hr { border-top: 1px solid var(--border-color); }
 }
 
 /* --- RESPONSIVE FIXES --- */
-@media (max-width: 992px) {
-    .tm-col-left { width: 30%; padding-left: 24px; padding-right: 20px; }
-    .tm-col-right { width: 70%; padding-left: 40px; padding-right: 40px; }
+@media (max-width: 992px) and (min-width: 769px) {
+    .tm-col-left { width: 20%; padding-left: 16px; padding-right: 12px; }
+    .tm-col-right { width: 80%; padding-left: 30px; padding-right: 40px; }
 }
 
 @media (max-width: 768px) {
     .tm-row { flex-direction: column; }
     .tm-col-left {
         width: 100%;
-        padding: 20px 20px 0 20px;
+        padding: 16px 20px 0 20px;
     }
     .tm-col-right {
         width: 100%;
