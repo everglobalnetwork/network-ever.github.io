@@ -1,9 +1,11 @@
 /*
 
 Daniel Goller, Ph.D.
-16.04.2026
+Roberto Sartore, Claude
+26.11.2026
 
 */
+
 
 html {
     overflow-y: scroll;
@@ -143,10 +145,10 @@ html {
 .tm-row { display: flex; width: 100%; align-items: flex-start; }
 
 .tm-col-left {
-    width: 13%;
-    padding-left: 0;
+    width: 14%;
+    padding-left: 8px;
     padding-right: 8px;
-    padding-top: 1.5rem;
+    padding-top: 0.6rem;
 }
 
 .tm-col-right {
@@ -542,7 +544,7 @@ hr { border-top: 1px solid var(--border-color); }
 .tm-logo-img {
   display: block;
   width: 100%;
-  max-width: 210px;
+  max-width: 240px;
   height: auto;
   object-fit: contain;
 }
