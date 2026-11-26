@@ -26,7 +26,7 @@ body {
 
 body {
     font-family: 'DM Sans', 'Open Sans', Arial, sans-serif;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 300;
     overflow-x: hidden;
     color: var(--oxford-blue);
@@ -80,7 +80,7 @@ p { line-height: 1.9; }
 
 body {
     font-family: 'DM Sans', 'Open Sans', Arial, sans-serif;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 300;
     overflow-x: hidden;
     color: var(--oxford-blue);
