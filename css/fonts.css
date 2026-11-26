@@ -26,7 +26,7 @@ body {
 
 body {
     font-family: 'DM Sans', 'Open Sans', Arial, sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 300;
     overflow-x: hidden;
     color: var(--oxford-blue);
@@ -80,7 +80,7 @@ p { line-height: 1.9; }
 
 body {
     font-family: 'DM Sans', 'Open Sans', Arial, sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 300;
     overflow-x: hidden;
     color: var(--oxford-blue);
@@ -109,21 +109,21 @@ html {
     position: absolute;
     top: 0;
     left: 0;
-    width: 23vw;
+    width: 17vw;
     height: 100dvh;
     background: var(--light-bg);
-    clip-path: polygon(0 0, 100% 0, 28% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 15% 100%, 0 100%);
 }
 
 .tm-bg::after {
     content: "";
     position: absolute;
     top: 0;
-    left: 23vw;
+    left: 17vw;
     width: 4vw;
     height: 100dvh;
     background: #F0F3F6;
-    clip-path: polygon(0 0, 100% 0, 28% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 15% 100%, 0 100%);
 }
 
 .tm-bg-left,
@@ -143,14 +143,14 @@ html {
 .tm-row { display: flex; width: 100%; }
 
 .tm-col-left {
-    width: 20%;
-    padding-left: 40px;  
-    padding-right: 40px;
+    width: 15%;
+    padding-left: 30px;
+    padding-right: 20px;
 }
 
 .tm-col-right {
-    width: 80%;
-    padding-left: 70px;
+    width: 85%;
+    padding-left: 50px;
     padding-right: 70px;
 }
 
@@ -572,15 +572,38 @@ hr { border-top: 1px solid var(--border-color); }
 }
 
 /* --- RESPONSIVE FIXES --- */
-@media (max-width: 992px) {    
-    .tm-col-left { width: 35%; }
-    .tm-col-right { width: 65%; padding-left: 50px; }
+@media (max-width: 992px) {
+    .tm-col-left { width: 30%; padding-left: 24px; padding-right: 20px; }
+    .tm-col-right { width: 70%; padding-left: 40px; padding-right: 40px; }
 }
 
 @media (max-width: 768px) {
     .tm-row { flex-direction: column; }
-    .tm-col-left, .tm-col-right { width: 100%; padding: 30px; }
+    .tm-col-left {
+        width: 100%;
+        padding: 20px 20px 0 20px;
+    }
+    .tm-col-right {
+        width: 100%;
+        padding: 16px 20px 20px 20px;
+    }
+    .tm-col-left:empty { display: none; }
     .tm-bg { display: none; }
+    .tm-logo-img {
+        width: 220px;
+        height: auto;
+    }
+    .navbar-expand-lg .navbar-nav .tm-nav-link {
+        padding-bottom: 12px;
+        font-size: 1.1rem;
+    }
+    .tm-content {
+        margin-top: 20px;
+    }
+    .member-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)) !important;
+        gap: 30px 20px !important;
+    }
 }
 
 .member-website {
