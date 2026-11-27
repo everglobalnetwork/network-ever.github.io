@@ -1,5 +1,19 @@
 [
   {
+    "handle": "RePEc:cur:wpaper:y:2026:i:2:p:1-32",
+    "number": 2,
+    "year": 2026,
+    "title": "Revealed Ambition and the Transition through Education",
+    "authors": [
+      "Samuel Lüthi",
+      "Stefan C. Wolter"
+    ],
+    "abstract": "How demanding a qualification should students choose relative to their academic ability? We argue that this choice reveals ambition and study how the choice relates to later outcomes. Linking PISA 2012 data for Switzerland to administrative records, we follow students for more than ten years. We measure revealed ambition as the difference between the median PISA score of entrants to a student’s chosen upper secondary qualification and the student’s own score. Qualifications encompass more than 200 vocational occupations and several general education programmes with widely varying academic requirements. Consistent with our interpretation, revealed ambition is associated, conditional on ability, with socioeconomic background and, strongly, with the occupational status that students expect to hold at age 30. The results reveal a trade-off: ambitious students are less likely to complete upper secondary education on time, but more likely to obtain a tertiary degree. Among vocational students, they also earn more.",
+    "jel": "I21, I24, J24",
+    "file_url": "https://www.everglobalnetwork.com/wpapers/ever_wp_2026_02.pdf",
+    "source_file": "RePEc/cur/wpaper/wp002.rdf"
+  },
+  {
     "handle": "RePEc:cur:wpaper:y:2026:i:1:p:1-48",
     "number": 1,
     "year": 2026,
